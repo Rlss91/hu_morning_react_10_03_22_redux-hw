@@ -9,6 +9,10 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 //redux
 import store from "./store/index";
+//axios
+import axios from "axios";
+
+axios.defaults.baseURL = "http://localhost:8181/api";
 
 ReactDOM.render(
   <React.StrictMode>
